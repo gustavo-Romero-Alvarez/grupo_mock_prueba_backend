@@ -1,3 +1,23 @@
+///////////////////////////////////// LEER IMPORTTANTE   ////////////////////////////////////////////////////
+
+
+1) Clona el repositorio de GitHub a tu máquina local. Asegúrate de tener Git instalado y configurado correctamente.
+2)Abre una terminal o consola en la carpeta del proyecto clonado.
+3)Ejecuta el siguiente comando para generar un nuevo archivo de solución (.sln):
+Copy
+dotnet new sln
+Este comando creará un archivo de solución vacío en el directorio actual.
+4)Ahora, debes agregar tus proyectos (.csproj) a la solución. Puedes hacer esto ejecutando el siguiente comando por cada proyecto en tu solución:
+Copy
+dotnet sln add <nombre_del_proyecto.csproj>
+Reemplaza <nombre_del_proyecto.csproj> con el nombre del archivo de proyecto (.csproj) correspondiente.
+5)Una vez que hayas agregado todos los proyectos a la solución, abre el archivo de solución (.sln) en tu IDE (Visual Studio o Visual Studio Code).
+6)Comprueba que todos los proyectos se hayan cargado correctamente en la solución.
+7)Ahora puedes compilar y ejecutar tu aplicación como lo harías normalmente.
+Con estos pasos, deberías poder recuperar tu archivo de solución (.sln) y continuar trabajando en tu proyecto .NET Core. Recuerda que también puedes utilizar el comando dotnet restore para asegurarte de que todas las dependencias del proyecto se hayan restaurado correctamente.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 Prueba Backend
 Descripción
 Este proyecto es una API desarrollada en .NET Core C# que implementa el patrón MVC para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una entidad de libros. Además, se ha implementado la autenticación mediante JWT para proteger las operaciones del CRUD.
