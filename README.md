@@ -1,4 +1,4 @@
-///////////////////////////////////// LEER IMPORTTANTE   ////////////////////////////////////////////////////
+///////////////////////////////////// LEER IMPORTANTE   ////////////////////////////////////////////////////
 
 
 1) Clona el repositorio de GitHub a tu máquina local. Asegúrate de tener Git instalado y configurado correctamente.
@@ -18,6 +18,7 @@ Con estos pasos, deberías poder recuperar tu archivo de solución (.sln) y cont
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
+
 Prueba Backend
 Descripción
 Este proyecto es una API desarrollada en .NET Core C# que implementa el patrón MVC para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una entidad de libros. Además, se ha implementado la autenticación mediante JWT para proteger las operaciones del CRUD.
